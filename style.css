@@ -23,6 +23,8 @@ body {
   outline: none;
   background: transparent;
   border-bottom: white solid 3px;
+  caret-color: transparent;
+  color: white;
 }
 
 ::placeholder {
@@ -42,4 +44,40 @@ body {
   text-align: center;
   line-height: 35px;
   font-family: inherit;
+}
+
+#todo-form {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  margin-left: 150px;
+}
+
+#enterToDo {
+  text-align: center;
+  border: 0 none;
+  outline: none;
+  background: transparent;
+  border-bottom: white solid 2px;
+  caret-color: transparent;
+  color: white;
+}
+
+#delete-button {
+  border: none;
+  background: transparent;
+  color: white;
+}
+
+.todo-list {
+  color: white;
+  list-style: none;
+  padding-left: 0px;
+  margin-left: 150px;
+}
+
+#weather-country,
+#weather-city,
+#weather-temp,
+#weather-icon {
+  color: white;
 }
