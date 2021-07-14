@@ -44,6 +44,7 @@ body {
   text-align: center;
   line-height: 35px;
   font-family: inherit;
+  margin-top: 5rem;
 }
 
 #todo-form {
