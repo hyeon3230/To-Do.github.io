@@ -8,29 +8,50 @@
     <link rel="icon" href="data:;base64,iVBORw0KGgo=">
   </head>
   <body>
-    <div id="weather">
-      <span id="weather-country"></span>
-      <span id="weather-city"></span>
-      <span id="weather-temp"></span>
-      <span id="weather-icon"></span>
-    </div>
-    <h2 id="clock"> 00:00:00 </h2>
-    <form id="login-form" class="hidden">
-      <input type="text" id="enterName" required maxlength=10 placeholder="What is your name?" onkeyup="enterkey();">
-    </form>
-    <h1 id="greeting" class="hidden"></h1>
-    <form id="todo-form">
-      <input type="text" id= "enterToDo" placeholder="Write a To Do" required>
-    </form>
-    <ul id="todo-list"></ul>
-    <div id="quote">
-      <span></span><br>
-      <span></span>
+    <div id="background">
+      <div id="weather1">
+        <span id="weather-temp"></span>
+      </div>
+      <div id="weather2">
+        <span id="weather-city"></span>
+        <span id="weather-country"></span>
+        <span id="weather-icon"></span>
+      </div>
+      
+      <h2 id="clock"> 00:00:00 </h2>
+      <form id="login-form" class="hidden">
+        <input type="text" id="enterName" required maxlength=10 placeholder="What is your name?" onkeyup="enterkey();">
+      </form>
+      <h1 id="greeting" class="hidden"></h1>
+      
+      <form id="todo-form">
+        <input type="text" id= "enterToDo" placeholder="Write a To Do" required>
+      </form>
+      <ul id="todo-list"></ul>
+      
+      <div class="container">
+        <div class="upper">
+          <div id="month"></div>
+        </div>
+        <div class="lower">
+          <div id="day"></div>
+          <div id="date"></div>
+          <div id="year"></div>
+        </div>
+      </div>
+          
+      <div id="quote">
+         <span></span><br>
+        <span></span>
+       </div>
     </div>
     <script src="login.js"></script>
     <script src="clock.js"></script>
     <script src="quote.js"></script>
     <script src="todo.js"></script>
     <script src="weather.js"></script>
+    <script src="background.js"></script>
+    <script src="calendar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
   </body>
 </html>
