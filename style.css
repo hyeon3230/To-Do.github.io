@@ -85,9 +85,13 @@
 
 #weather2 {
   color: white;
-  resize: both;
   padding-top: 0.6%;
   margin-left: 6%;
+}
+
+#weather3 {
+  color: white;
+  margin-left: 6.1%;
 }
 
 #weather-city {
