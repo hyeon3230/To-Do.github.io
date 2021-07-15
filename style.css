@@ -1,6 +1,5 @@
-body {
-  background-color: #8aa9b2;
-}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){}
 
 .hidden {
   display: none;
@@ -63,7 +62,8 @@ body {
   color: white;
 }
 
-#delete-button {
+#delete-button,
+#check-button {
   border: none;
   background: transparent;
   color: white;
@@ -75,9 +75,66 @@ body {
   margin-left: 1rem;
 }
 
-#weather-country,
-#weather-city,
-#weather-temp,
-#weather-icon {
+#weather1 {
   color: white;
+  font-size: 2.2rem;
+  padding-left: 1%;
+  padding-top: 1%;
+  float: left;
+}
+
+#weather2 {
+  color: white;
+  resize: both;
+  padding-top: 0.6%;
+  margin-left: 6%;
+}
+
+#weather-city {
+  font-size: 1.5rem;
+}
+
+#weather-country {
+  font-size: 0.3rem;
+}
+
+#background {
+  background-size: cover;
+}
+
+.container {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  width: 11rem;
+  height: 13rem;
+  border-radius: 13px;
+}
+
+.upper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.8rem;
+  background-color: #81a2a7;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  font-size: 2rem;
+  font-weight: 900;
+  color: white;
+}
+
+.lower {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 9rem;
+  font-size: 1rem;
+}
+
+#date {
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.2;
 }
